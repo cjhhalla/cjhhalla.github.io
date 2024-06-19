@@ -28,8 +28,8 @@ url: "https://cjhhalla.github.io"
 github:
   username: cjhhalla # change to your github username
 
-twitter:
-  username: junhyeok # change to your twitter username
+# twitter:
+#   username: junhyeok # change to your twitter username
 
 social:
   # Change to your full name.
@@ -59,7 +59,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: 318726635
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
@@ -96,7 +96,7 @@ theme_mode: # [light | dark]
 cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/commons/avatar.jpg"
+avatar: "/assets/img/face.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

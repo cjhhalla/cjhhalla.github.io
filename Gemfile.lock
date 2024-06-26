@@ -23,10 +23,15 @@ GEM
       http_parser.rb (~> 0)
     ethon (0.16.0)
       ffi (>= 1.15.0)
+    eventmachine (1.2.7)
     eventmachine (1.2.7-x86-mingw32)
     ffi (1.17.0-x86-mingw32)
+    ffi (1.17.0-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
     google-protobuf (4.27.1-x86-mingw32)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.27.1-x86_64-linux)
       bigdecimal
       rake (>= 13)
     html-proofer (4.4.3)
@@ -83,6 +88,8 @@ GEM
     mercenary (0.4.0)
     nokogiri (1.16.6-x86-mingw32)
       racc (~> 1.4)
+    nokogiri (1.16.6-x86_64-linux)
+      racc (~> 1.4)
     parallel (1.25.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -97,6 +104,9 @@ GEM
       strscan
     rouge (4.3.0)
     safe_yaml (1.0.5)
+    sass-embedded (1.77.5)
+      google-protobuf (>= 3.25, < 5.0)
+      rake (>= 13)
     sass-embedded (1.77.5-x86-mingw32)
       google-protobuf (>= 3.25, < 5.0)
     strscan (3.1.0)
@@ -115,6 +125,7 @@ GEM
 
 PLATFORMS
   x86-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   html-proofer (~> 4.4)
